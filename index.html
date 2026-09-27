@@ -6,219 +6,57 @@
 <meta name="description" content="Digital Guide วัดมัชฌิมาวาสวรวิหาร จังหวัดสงขลา">
 <title>Digital Guide | วัดมัชฌิมาวาสวรวิหาร</title>
 <style>
-:root{
-  --navy:#0a192f; --navy2:#102746; --gold:#eab308; --cream:#f7f3e8;
-  --text:#172033; --muted:#667085; --white:#fff; --line:#e7e5df;
-}
-*{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;font-family:"Noto Sans Thai","Tahoma",sans-serif;color:var(--text);background:#f8fafc;line-height:1.75}
-a{color:inherit}
-.nav{position:sticky;top:0;z-index:20;background:rgba(10,25,47,.96);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}
-.navin{max-width:1100px;margin:auto;display:flex;align-items:center;gap:18px;padding:12px 20px}
-.brand{font-weight:800;white-space:nowrap}
-.links{display:flex;gap:8px;overflow:auto;font-size:14px}
-.links a{text-decoration:none;padding:7px 10px;border-radius:999px;color:#dce7f5}
-.links a:hover{background:#18365d;color:#fff}
-.hero{background:linear-gradient(135deg,var(--navy),#17375f);color:#fff}
-.hero-in{max-width:1100px;margin:auto;padding:76px 20px 68px;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
-.kicker{color:#facc15;font-weight:700;letter-spacing:.04em}
-h1{font-size:clamp(34px,5vw,62px);line-height:1.12;margin:12px 0 18px}
-.hero p{font-size:18px;color:#d8e3f1;max-width:700px}
-.badges{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
-.badge{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);padding:6px 11px;border-radius:999px;font-size:13px}
-.hero-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:24px}
-.hero-card .qrbox{height:190px;background:#fff;border-radius:16px;display:grid;place-items:center;color:#8b93a1;font-weight:700;text-align:center;padding:20px}
-.container{max-width:1100px;margin:auto;padding:0 20px}
-section{padding:70px 0}
-.section-head{margin-bottom:28px}
-.eyebrow{color:#9a6f00;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
-h2{font-size:34px;line-height:1.2;margin:7px 0}
-.lead{color:var(--muted);max-width:760px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 8px 30px rgba(16,24,40,.05)}
-.card h3{margin:5px 0 8px}
-.icon{font-size:30px}
-.history{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}
-.photo{width:100%;display:block;border-radius:20px;border:1px solid var(--line);box-shadow:0 12px 30px rgba(16,24,40,.09)}
-.caption{font-size:12px;color:var(--muted);margin-top:8px}
-.quote{background:var(--cream);border-left:5px solid var(--gold);padding:18px 20px;border-radius:12px;margin-top:18px}
-.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.gallery .card{padding:12px}
-.guide-box{background:linear-gradient(135deg,#fff,#f3f6fb);border:1px solid var(--line);border-radius:24px;padding:28px}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
-.step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
-.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-weight:800}
-.qr-section{background:var(--navy);color:#fff}
-.qrgrid{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:center}
-.qr-placeholder{background:#fff;color:#475467;border-radius:22px;padding:25px;text-align:center;min-height:280px;display:grid;place-items:center}
-footer{background:#071224;color:#b8c4d5;padding:40px 20px}
-.footerin{max-width:1100px;margin:auto}
-.small{font-size:13px;color:#98a6b8}
-.source a{color:#8fc4ff}
-@media(max-width:800px){
- .hero-in,.history,.qrgrid{grid-template-columns:1fr}
- .grid,.steps{grid-template-columns:1fr}
- .gallery{grid-template-columns:1fr}
- .links{font-size:12px}
- section{padding:50px 0}
-}
+:root{--navy:#0a192f;--navy2:#102746;--gold:#eab308;--cream:#f7f3e8;--text:#172033;--muted:#667085;--white:#fff;--line:#e7e5df}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;font-family:"Noto Sans Thai","Tahoma",sans-serif;color:var(--text);background:#f8fafc;line-height:1.75}a{color:inherit}.nav{position:sticky;top:0;z-index:20;background:rgba(10,25,47,.96);backdrop-filter:blur(12px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}.navin{max-width:1100px;margin:auto;display:flex;align-items:center;gap:18px;padding:12px 20px}.brand{font-weight:800;white-space:nowrap}.links{display:flex;gap:8px;overflow:auto;font-size:14px}.links a{text-decoration:none;padding:7px 10px;border-radius:999px;color:#dce7f5}.links a:hover{background:#18365d;color:#fff}.hero{background:linear-gradient(135deg,var(--navy),#17375f);color:#fff}.hero-in{max-width:1100px;margin:auto;padding:76px 20px 68px;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}.kicker{color:#facc15;font-weight:700;letter-spacing:.04em}h1{font-size:clamp(34px,5vw,62px);line-height:1.12;margin:12px 0 18px}.hero p{font-size:18px;color:#d8e3f1;max-width:700px}.badges{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.badge{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);padding:6px 11px;border-radius:999px;font-size:13px}.hero-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.14);border-radius:24px;padding:24px}.hero-card .hero-photo{height:240px;background:rgba(255,255,255,.08);border-radius:16px;display:grid;place-items:center;text-align:center;color:#d8e3f1;padding:20px}.container{max-width:1100px;margin:auto;padding:0 20px}section{padding:70px 0}.section-head{margin-bottom:28px}.eyebrow{color:#9a6f00;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase}h2{font-size:34px;line-height:1.2;margin:7px 0}.lead{color:var(--muted);max-width:800px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 8px 30px rgba(16,24,40,.05)}.card h3{margin:5px 0 8px}.icon{font-size:30px}.history{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.photo{width:100%;display:block;border-radius:20px;border:1px solid var(--line);box-shadow:0 12px 30px rgba(16,24,40,.09)}.caption{font-size:12px;color:var(--muted);margin-top:8px}.quote{background:var(--cream);border-left:5px solid var(--gold);padding:18px 20px;border-radius:12px;margin-top:18px}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.gallery .card{padding:12px}.placeholder{min-height:230px;border-radius:14px;background:linear-gradient(135deg,#eef2f7,#f8fafc);border:1px dashed #aab4c2;display:grid;place-items:center;text-align:center;padding:22px;color:#667085}.placeholder strong{color:#344054}.guide-box{background:linear-gradient(135deg,#fff,#f3f6fb);border:1px solid var(--line);border-radius:24px;padding:28px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}.step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-weight:800}.qr-section{background:var(--navy);color:#fff}.qrgrid{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:center}.qr-placeholder{background:#fff;color:#475467;border-radius:22px;padding:25px;text-align:center;min-height:280px;display:grid;place-items:center}footer{background:#071224;color:#b8c4d5;padding:40px 20px}.footerin{max-width:1100px;margin:auto}.small{font-size:13px;color:#98a6b8}.source a{color:#8fc4ff}.credit{font-size:12px;color:#667085;margin:8px 2px 0}@media(max-width:800px){.hero-in,.history,.qrgrid{grid-template-columns:1fr}.grid,.steps{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.links{font-size:12px}section{padding:50px 0}}
 </style>
 </head>
 <body>
-<nav class="nav">
-  <div class="navin">
-    <div class="brand">มัชฌิมาวาส • Digital Guide</div>
-    <div class="links">
-      <a href="#home">หน้าแรก</a>
-      <a href="#history">ประวัติ</a>
-      <a href="#architecture">สถาปัตยกรรม</a>
-      <a href="#mural">จิตรกรรม</a>
-      <a href="#guide">Digital Guide</a>
-      <a href="#sources">แหล่งข้อมูล</a>
-    </div>
-  </div>
-</nav>
-
-<header id="home" class="hero">
-  <div class="hero-in">
-    <div>
-      <div class="kicker">DIGITAL GUIDE • SONGKHLA</div>
-      <h1>วัดมัชฌิมาวาสวรวิหาร</h1>
-      <p>เรื่องราวจากอดีต สู่การเรียนรู้ในยุคดิจิทัล</p>
-      <div class="badges">
-        <span class="badge">ประวัติศาสตร์</span>
-        <span class="badge">สถาปัตยกรรม</span>
-        <span class="badge">จิตรกรรมฝาผนัง</span>
-        <span class="badge">เทคโนโลยีเพื่อการเรียนรู้</span>
-      </div>
-    </div>
-    <div class="hero-card">
-      <div class="qrbox">
-        QR CODE<br>
-        <span style="font-size:12px;font-weight:400">ใส่ QR ของเว็บไซต์หลัง Publish</span>
-      </div>
-    </div>
-  </div>
-</header>
-
+<nav class="nav"><div class="navin"><div class="brand">มัชฌิมาวาส • Digital Guide</div><div class="links"><a href="#home">หน้าแรก</a><a href="#history">ประวัติ</a><a href="#architecture">สถาปัตยกรรม</a><a href="#mural">จิตรกรรม</a><a href="#museum">โบราณวัตถุ</a><a href="#guide">Digital Guide</a><a href="#sources">แหล่งข้อมูล</a></div></div></nav>
+<header id="home" class="hero"><div class="hero-in"><div><div class="kicker">DIGITAL GUIDE • SONGKHLA</div><h1>วัดมัชฌิมาวาสวรวิหาร</h1><p>เรื่องราวจากอดีต สู่การเรียนรู้ในยุคดิจิทัล</p><div class="badges"><span class="badge">ประวัติศาสตร์</span><span class="badge">สถาปัตยกรรม</span><span class="badge">จิตรกรรมฝาผนัง</span><span class="badge">โบราณวัตถุ</span></div></div><div class="hero-card"><div class="hero-photo">ใส่รูปวัดมุมกว้างของคุณเองตรงนี้<br><small>แนะนำ: ภาพแนวนอน เห็นวัดชัดและมีพื้นที่ท้องฟ้า</small></div></div></div></header>
 <main>
-<section>
- <div class="container">
-  <div class="section-head">
-   <div class="eyebrow">Explore</div>
-   <h2>เลือกหัวข้อที่อยากรู้</h2>
-   <p class="lead">Digital Guide นี้จัดทำขึ้นเพื่อช่วยให้ผู้ชมเรียนรู้เรื่องราวของวัดจากสถานที่จริง และกลับมาศึกษารายละเอียดเพิ่มเติมได้ด้วยตัวเอง</p>
-  </div>
-  <div class="grid">
-   <a class="card" href="#history" style="text-decoration:none"><div class="icon">📖</div><h3>ประวัติความเป็นมา</h3><p>ทำความรู้จักกับที่มาและความสำคัญของวัด</p></a>
-   <a class="card" href="#architecture" style="text-decoration:none"><div class="icon">🏛️</div><h3>สถาปัตยกรรม</h3><p>ชมรูปแบบอาคารและรายละเอียดงานช่าง</p></a>
-   <a class="card" href="#mural" style="text-decoration:none"><div class="icon">🎨</div><h3>จิตรกรรมฝาผนัง</h3><p>สำรวจรายละเอียดของภาพและเรื่องราวที่ปรากฏบนผนัง</p></a>
-  </div>
- </div>
-</section>
+<section><div class="container"><div class="section-head"><div class="eyebrow">Explore</div><h2>เลือกหัวข้อที่อยากรู้</h2><p class="lead">Digital Guide นี้จัดทำขึ้นเพื่อช่วยให้ผู้ชมเรียนรู้วัดมัชฌิมาวาสจากสถานที่จริง ทั้งประวัติ สถาปัตยกรรม จิตรกรรมฝาผนัง และโบราณวัตถุ พร้อมใช้สื่อดิจิทัลเป็นส่วนเสริมการเรียนรู้</p></div><div class="grid"><a class="card" href="#history" style="text-decoration:none"><div class="icon">📖</div><h3>ประวัติความเป็นมา</h3><p>ทำความรู้จักที่มา ชื่อเดิม และความสำคัญของวัด</p></a><a class="card" href="#architecture" style="text-decoration:none"><div class="icon">🏛️</div><h3>สถาปัตยกรรม</h3><p>ชมพระอุโบสถ หน้าบัน ซุ้มประตู หน้าต่าง และองค์ประกอบทางศิลปกรรม</p></a><a class="card" href="#mural" style="text-decoration:none"><div class="icon">🎨</div><h3>จิตรกรรมฝาผนัง</h3><p>เรียนรู้เรื่องราวและภาพสะท้อนสังคมที่ปรากฏในจิตรกรรม</p></a><a class="card" href="#museum" style="text-decoration:none"><div class="icon">🏺</div><h3>พิพิธภัณฑ์และโบราณวัตถุ</h3><p>ทำความรู้จักแหล่งรวบรวมวัตถุทางประวัติศาสตร์ของพื้นที่</p></a></div></div></section>
 
-<section id="history" style="background:#fff">
- <div class="container">
-  <div class="history">
-   <div>
-    <div class="eyebrow">01 • History</div>
-    <h2>ประวัติความเป็นมา</h2>
-    <p>วัดมัชฌิมาวาสวรวิหารเป็นวัดสำคัญของจังหวัดสงขลา มีประวัติความเป็นมาย้อนไปถึงสมัยอยุธยาตอนปลาย เดิมเรียกว่า “วัดยายศรีจันทร์” หรือ “วัดยายสีจันทร์” และต่อมาได้รับการเปลี่ยนชื่อเป็น “วัดมัชฌิมาวาส”</p>
-    <p>ปัจจุบันเป็นพระอารามหลวงชั้นตรี ชนิดวรวิหาร และเป็นแหล่งที่มีทั้งโบราณสถานและงานศิลปกรรมที่ช่วยสะท้อนประวัติศาสตร์ของพื้นที่</p>
-    <div class="quote">วัดจึงไม่ได้เป็นเพียงสถานที่ประกอบศาสนกิจ แต่ยังเป็นพื้นที่สำหรับเรียนรู้ประวัติศาสตร์และศิลปวัฒนธรรมของเมืองสงขลา</div>
-   </div>
-   <div>
-    <img class="photo" src="wat-historical-photo.jpeg" alt="ภาพประวัติศาสตร์ที่เกี่ยวข้องกับวัดมัชฌิมาวาส">
-    <div class="caption">ภาพประวัติศาสตร์ • แหล่งภาพ: Hatyaifocus (ใช้ประกอบการเรียนรู้)</div>
-   </div>
-  </div>
- </div>
-</section>
+<section id="history" style="background:#fff"><div class="container"><div class="section-head"><div class="eyebrow">01 • History</div><h2>ประวัติความเป็นมา</h2><p class="lead">วัดมัชฌิมาวาส หรือ “วัดกลาง” เป็นวัดสำคัญและเก่าแก่แห่งหนึ่งของเมืองสงขลา มีประวัติความเป็นมาย้อนไปถึงสมัยอยุธยาตอนปลาย</p></div><div class="history"><div><p>เดิมวัดแห่งนี้เรียกว่า <strong>“วัดยายศรีจันทร์”</strong> ตามชื่อคหบดีผู้สร้าง ต่อมาชาวบ้านเรียกว่า <strong>“วัดกลาง”</strong> เนื่องจากมีวัดเลียบอยู่ทางทิศเหนือและวัดโพธิ์อยู่ทางทิศใต้ ทำให้วัดตั้งอยู่ตรงกลางระหว่างวัดทั้งสอง</p><p>ใน <strong>พ.ศ. ๒๔๓๑</strong> พระเจ้าน้องยาเธอ กรมหมื่นวชิรญาณวโรรส เสด็จเมืองสงขลาและทรงเปลี่ยนชื่อวัดกลางเป็น <strong>“วัดมัชฌิมาวาส”</strong> ซึ่งมีความหมายสอดคล้องกับชื่อวัดกลาง</p><p>ต่อมาในวันที่ <strong>๑๗ สิงหาคม พ.ศ. ๒๔๖๐</strong> ได้รับการยกฐานะเป็น <strong>พระอารามหลวงชั้นตรี ชนิดวรวิหาร</strong> มีชื่อทางราชการว่า “วัดมัชฌิมาวาสวรวิหาร”</p><div class="quote">วัดมัชฌิมาวาสจึงเป็นทั้งศาสนสถาน โบราณสถาน และแหล่งเรียนรู้ที่สะท้อนประวัติศาสตร์ ศิลปกรรม และความหลากหลายทางวัฒนธรรมของเมืองสงขลา</div></div><div><div class="placeholder"><strong>รูปที่ 1/3 — รูปวัดปัจจุบัน</strong><br>ใส่รูปวัดมุมกว้างที่คุณถ่ายเอง</div><p class="credit">เครดิต: ภาพถ่ายโดยผู้จัดทำ</p><div style="height:18px"></div><div class="placeholder"><strong>รูปที่ 2/3 — รูปวัดในอดีต</strong><br>ใช้รูปจาก Facebook ชุมชนชาวจีนเมืองสงขลา</div><p class="credit">เครดิต: Facebook ชุมชนชาวจีนเมืองสงขลา</p><div style="height:18px"></div><div class="placeholder"><strong>รูปที่ 3/3 — รูปเมืองสงขลาในอดีต</strong><br>ใช้รูปจาก Kapook ตามแหล่งที่คุณรวบรวมไว้</div><p class="credit">เครดิต: Kapook Travel</p></div></div></div></section>
 
-<section id="architecture">
- <div class="container">
-  <div class="section-head">
-   <div class="eyebrow">02 • Architecture</div>
-   <h2>สถาปัตยกรรม</h2>
-   <p class="lead">เมื่อเดินชมวัด ลองสังเกตรูปทรงอาคาร หลังคา หน้าบัน ประตู หน้าต่าง และลวดลายตกแต่ง รายละเอียดเหล่านี้ช่วยให้เห็นฝีมือและแนวคิดของงานช่างในแต่ละช่วงเวลา</p>
-  </div>
-  <div class="grid">
-   <div class="card"><div class="icon">🏯</div><h3>พระอุโบสถ</h3><p>อาคารสำคัญที่เป็นจุดเด่นของการชมสถาปัตยกรรมและจิตรกรรมภายในวัด</p></div>
-   <div class="card"><div class="icon">✨</div><h3>รายละเอียดงานช่าง</h3><p>สังเกตหน้าบัน ลวดลาย ประตู หน้าต่าง และองค์ประกอบตกแต่งต่าง ๆ</p></div>
-   <div class="card"><div class="icon">🧭</div><h3>โบราณสถานภายในวัด</h3><p>พื้นที่วัดมีองค์ประกอบทางประวัติศาสตร์หลายส่วนที่สามารถเรียนรู้จากสถานที่จริง</p></div>
-  </div>
- </div>
-</section>
+<section id="architecture"><div class="container"><div class="section-head"><div class="eyebrow">02 • Architecture</div><h2>สถาปัตยกรรม</h2><p class="lead">สถาปัตยกรรมของวัดมัชฌิมาวาสสะท้อนการผสมผสานของศิลปะไทย จีน และยุโรป โดยเฉพาะพระอุโบสถซึ่งเป็นจุดสำคัญของการชมงานศิลปกรรมภายในวัด</p></div><p>พระอุโบสถที่ปรากฏในปัจจุบันสร้างขึ้นระหว่าง <strong>พ.ศ. ๒๓๙๐–๒๔๐๘</strong> โดยเจ้าพระยาวิเชียรคีรี (บุญสังข์ ณ สงขลา) เป็นผู้สร้างตามพระบรมราชโองการในรัชกาลที่ ๓ รูปแบบได้รับการปรับจากพระอุโบสถวัดพระศรีรัตนศาสดาราม และเป็นผลงานร่วมระหว่างช่างหลวงกับช่างท้องถิ่นเมืองสงขลา</p><div class="gallery"><div class="card"><div class="placeholder"><strong>1. พระอุโบสถมุมกว้าง</strong><br>ใส่รูปด้านหน้าหรือมุมที่เห็นอาคารชัด</div><p><strong>พระอุโบสถ</strong><br>อาคารสำคัญของวัดที่รวมทั้งสถาปัตยกรรมและจิตรกรรมฝาผนังไว้ภายใน</p></div><div class="card"><div class="placeholder"><strong>2. หน้าบันด้านหน้า</strong><br>ใส่รูปหน้าบันที่เห็นรายละเอียดชัด</div><p><strong>พระอินทร์ทรงช้างเอราวัณ</strong><br>หน้าบันด้านหนึ่งประดับภาพพระอินทร์ทรงช้างเอราวัณ</p></div><div class="card"><div class="placeholder"><strong>3. หน้าบันอีกด้าน</strong><br>ใส่รูปหน้าบันอีกด้าน</div><p><strong>พระพรหมทรงหงส์</strong><br>หน้าบันอีกด้านเป็นภาพพระพรหมทรงหงส์ในงานปูนปั้น</p></div><div class="card"><div class="placeholder"><strong>4. ซุ้มประตู</strong><br>ใส่รูปซุ้มประตูที่เด่นที่สุด</div><p><strong>ซุ้มประตู</strong><br>มีรูปแบบที่สะท้อนการผสมผสานของศิลปกรรมหลายวัฒนธรรม</p></div><div class="card"><div class="placeholder"><strong>5. ซุ้มหน้าต่าง</strong><br>ใส่รูปซุ้มหน้าต่าง</div><p><strong>ซุ้มหน้าต่างรูปมงกุฎ</strong><br>พระอุโบสถมีซุ้มหน้าต่างรูปมงกุฎจัดเป็นสองแถว</p></div><div class="card"><div class="placeholder"><strong>6. รายละเอียดตกแต่ง</strong><br>เช่น ตุ๊กตาหินจีน ใบเสมา หรือภาพจำหลักหิน</div><p><strong>องค์ประกอบศิลปกรรม</strong><br>บริเวณวัดยังมีองค์ประกอบที่เกี่ยวข้องกับศิลปะจีน เช่น ประติมากรรมหินและรายละเอียดงานช่างต่าง ๆ</p></div></div><p class="caption">แหล่งข้อมูลหลักสำหรับเนื้อหาสถาปัตยกรรม: ฐานข้อมูลท้องถิ่นภาคใต้ สำนักทรัพยากรการเรียนรู้คุณหญิงหลงฯ มหาวิทยาลัยสงขลา​นครินทร์ (PSU Southern Information)</p></div></section>
 
-<section id="mural" style="background:#fff">
- <div class="container">
-  <div class="section-head">
-   <div class="eyebrow">03 • Mural Paintings</div>
-   <h2>จิตรกรรมฝาผนัง</h2>
-   <p class="lead">จิตรกรรมภายในพระอุโบสถเป็นหนึ่งในจุดสำคัญของวัด รายละเอียดในภาพสามารถช่วยให้ผู้ชมมองเห็นตัวละคร เหตุการณ์ เครื่องแต่งกาย และวิถีชีวิตที่ศิลปินถ่ายทอดไว้</p>
-  </div>
-  <div class="guide-box">
-   <h3>🔎 วิธีชมจิตรกรรม</h3>
-   <div class="steps">
-    <div class="step"><div class="num">1</div><h3>มองภาพรวม</h3><p>ดูองค์ประกอบของภาพและเรื่องราวโดยรวม</p></div>
-    <div class="step"><div class="num">2</div><h3>ซูมรายละเอียด</h3><p>สังเกตตัวละคร เสื้อผ้า สิ่งของ และกิจกรรมต่าง ๆ</p></div>
-    <div class="step"><div class="num">3</div><h3>เชื่อมโยงกับอดีต</h3><p>ลองมองภาพในฐานะหลักฐานทางศิลปะที่ช่วยเล่าเรื่องผู้คนในอดีต</p></div>
-   </div>
-  </div>
-  <p style="margin-top:25px"><strong>หมายเหตุ:</strong> จิตรกรรมฝาผนังภายในพระอุโบสถได้รับการดำเนินงานด้านการอนุรักษ์โดยกรมศิลปากร</p>
- </div>
-</section>
+<section id="mural" style="background:#fff"><div class="container"><div class="section-head"><div class="eyebrow">03 • Mural Paintings</div><h2>จิตรกรรมฝาผนัง</h2><p class="lead">ผนังทั้ง ๔ ด้านภายในพระอุโบสถมีจิตรกรรมที่เป็นส่วนสำคัญของมรดกศิลปกรรมของวัด ภาพเหล่านี้ไม่ได้เล่าเฉพาะเรื่องทางศาสนา แต่ยังสะท้อนผู้คน สังคม และวัฒนธรรมในอดีต</p></div><p>จิตรกรรมภายในพระอุโบสถเขียนเสร็จในช่วง <strong>พ.ศ. ๒๔๐๖</strong> ตามข้อมูลจากฐานข้อมูลท้องถิ่นภาคใต้ ภาพมีเรื่องราวเกี่ยวกับพุทธประวัติและเทพชุมนุม รวมถึงรายละเอียดที่ช่วยให้เห็นชีวิตและสังคมของผู้คน เช่น การประกอบอาชีพ การแต่งกาย และสภาพบ้านเรือน</p><div class="gallery"><div class="card"><div class="placeholder"><strong>1. ภาพรวมจิตรกรรม</strong><br>รูปผนังด้านที่เห็นองค์ประกอบโดยรวม</div><p>ใช้เพื่อให้เห็นว่าจิตรกรรมครอบคลุมพื้นที่ผนังภายในพระอุโบสถ</p></div><div class="card"><div class="placeholder"><strong>2. ภาพรวมอีกด้าน</strong><br>เลือกผนังอีกด้านที่องค์ประกอบแตกต่างกัน</div><p>ช่วยให้เห็นความหลากหลายของเรื่องราวและองค์ประกอบภาพ</p></div><div class="card"><div class="placeholder"><strong>3. พุทธประวัติ</strong><br>เลือกรูปตอนที่เห็นเรื่องราวชัด</div><p>ภาพที่เกี่ยวข้องกับเรื่องราวในพุทธประวัติ</p></div><div class="card"><div class="placeholder"><strong>4. ทศชาติชาดก / เรื่องราวชาดก</strong><br>ถ้ามีภาพที่ระบุเรื่องได้ชัด</div><p>ใช้ภาพที่มีเนื้อหาเกี่ยวข้องกับชาดกหรือเรื่องราวทางพุทธศาสนา</p></div><div class="card"><div class="placeholder"><strong>5. เทพชุมนุม</strong><br>เลือกรูปที่เห็นกลุ่มเทพชัด</div><p>ภาพเทพชุมนุมเป็นอีกองค์ประกอบสำคัญของจิตรกรรม</p></div><div class="card"><div class="placeholder"><strong>6. ผู้คน / ตัวละคร</strong><br>เลือกรูปที่เห็นผู้คนหลายลักษณะ</div><p>ใช้สังเกตตัวละคร การแต่งกาย และกิจกรรมที่ปรากฏในภาพ</p></div><div class="card"><div class="placeholder"><strong>7. วิถีชีวิต / การแต่งกาย</strong><br>เลือกรูปที่เห็นบ้านเรือนหรือการประกอบอาชีพ</div><p>จิตรกรรมช่วยให้เห็นรายละเอียดของชีวิตและสังคมในอดีต</p></div><div class="card"><div class="placeholder"><strong>8. ภาพเกี่ยวกับเมืองสงขลา / หัวเขาแดง</strong><br>ใช้เมื่อมีรูปที่ตรงกับเนื้อหา</div><p>มีข้อมูลกล่าวถึงภาพท่าเรือสงขลาบริเวณหัวเขาแดง ซึ่งสะท้อนบรรยากาศการค้าขายในอดีต</p></div></div><div class="quote">จิตรกรรมจึงมีคุณค่าในฐานะงานศิลปกรรมและแหล่งเรียนรู้ที่ช่วยให้คนรุ่นปัจจุบันมองเห็นเรื่องราวของผู้คนในอดีตผ่านภาพที่ศิลปินถ่ายทอดไว้</div></div></section>
 
-<section id="guide">
- <div class="container">
-  <div class="section-head">
-   <div class="eyebrow">04 • Digital Learning</div>
-   <h2>เทคโนโลยีช่วยต่อยอดการเรียนรู้</h2>
-   <p class="lead">เว็บไซต์นี้เป็นส่วนเสริมของวิดีโอ ผู้ชมสามารถกลับมาอ่านข้อมูล ดูภาพ และทบทวนรายละเอียดของวัดได้ด้วยตัวเอง</p>
-  </div>
-  <div class="grid">
-   <div class="card"><div class="icon">📱</div><h3>QR Code</h3><p>สแกน QR จากวิดีโอเพื่อเข้ามาที่ Digital Guide</p></div>
-   <div class="card"><div class="icon">🖼️</div><h3>ภาพและรายละเอียด</h3><p>รวมข้อมูลแบบอ่านง่าย เพื่อให้ชมรายละเอียดได้มากกว่าที่วิดีโอมีเวลาเล่า</p></div>
-   <div class="card"><div class="icon">🤖</div><h3>AI เพื่อการสื่อสาร</h3><p>ในวิดีโอมีภาพจำลองอดีตที่สร้างด้วย AI โดยระบุให้ชัดว่าเป็นภาพจำลอง ไม่ใช่ภาพเหตุการณ์จริง</p></div>
-  </div>
- </div>
-</section>
+<section id="museum"><div class="container"><div class="section-head"><div class="eyebrow">04 • Museum & Artifacts</div><h2>พิพิธภัณฑ์และโบราณวัตถุ</h2><p class="lead">วัดมัชฌิมาวาสมีแหล่งรวบรวมและจัดแสดงโบราณวัตถุที่เกี่ยวข้องกับประวัติศาสตร์ของภาคใต้ ซึ่งช่วยให้ผู้ชมเรียนรู้เรื่องราวของพื้นที่ผ่านวัตถุจริง</p></div><p>ข้อมูลจากมหาวิทยาลัยสงขลานครินทร์ระบุถึงการรวบรวมศิลปะและโบราณวัตถุจากพื้นที่เมืองสงขลา สทิงพระ และระโนด และการจัดตั้งพิพิธภัณฑสถานเพื่อเป็นแหล่งเรียนรู้สำหรับคนรุ่นหลัง</p><div class="gallery"><div class="card"><div class="placeholder"><strong>1. ภายนอก / สถานที่จัดแสดง</strong><br>ใส่รูปอาคารหรือทางเข้าที่คุณถ่ายได้</div><p>ภาพช่วยให้ผู้ชมรู้ว่าจุดจัดแสดงอยู่บริเวณใด</p></div><div class="card"><div class="placeholder"><strong>2. ภาพรวมภายใน</strong><br>ใส่ภาพบรรยากาศพื้นที่จัดแสดง</div><p>แสดงบรรยากาศของแหล่งเรียนรู้ภายในวัด</p></div><div class="card"><div class="placeholder"><strong>3. โบราณวัตถุชิ้นที่ 1</strong><br>เลือกชิ้นที่มีข้อมูลกำกับชัดเจน</div><p>ใส่ชื่อและคำอธิบายตามป้ายข้อมูลจริง</p></div><div class="card"><div class="placeholder"><strong>4. โบราณวัตถุชิ้นที่ 2</strong><br>เลือกอีกชิ้นที่แตกต่างจากชิ้นแรก</div><p>ใส่ชื่อและคำอธิบายตามป้ายข้อมูลจริง</p></div></div><div class="quote"><strong>หมายเหตุ:</strong> หากวันที่ถ่ายทำไม่สามารถเข้าชมหรือถ่ายภาพส่วนนี้ได้ เราสามารถนำหัวข้อนี้ออกจากเว็บไซต์ได้โดยไม่กระทบโครงหลัก</div></div></section>
 
-<section id="sources" style="background:#fff">
- <div class="container">
-  <div class="section-head">
-   <div class="eyebrow">Sources</div>
-   <h2>แหล่งข้อมูล</h2>
-  </div>
-  <div class="card source">
-   <p><strong>กรมศิลปากร</strong> — ข้อมูลประวัติวัดมัชฌิมาวาสวรวิหาร จังหวัดสงขลา</p>
-   <p><strong>กรมศิลปากร</strong> — ข้อมูลการอนุรักษ์จิตรกรรมฝาผนังภายในพระอุโบสถ</p>
-   <p><strong>Hatyaifocus</strong> — แหล่งภาพประวัติศาสตร์ที่ใช้ประกอบการนำเสนอ</p>
-   <p class="small">เว็บไซต์นี้จัดทำขึ้นเพื่อประกอบโครงงานการผลิตวิดีโอส่งเสริมศิลปวัฒนธรรมท้องถิ่นด้วยเทคโนโลยี</p>
-   <p class="small"><a href="https://www.finearts.go.th/dvaravati/view/15355-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B1%E0%B8%8A%E0%B8%8C%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3-%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2" target="_blank" rel="noopener">ดูข้อมูลจากกรมศิลปากร</a></p>
- </div>
- </div>
-</section>
+<section id="guide" style="background:#fff"><div class="container"><div class="section-head"><div class="eyebrow">05 • Digital Learning</div><h2>Digital Guide และ QR Code</h2><p class="lead">เทคโนโลยีในโครงงานนี้ทำหน้าที่เป็นส่วนเสริมของการเรียนรู้ โดยเชื่อมจากวิดีโอไปยังข้อมูลเพิ่มเติมบนเว็บไซต์</p></div><div class="guide-box"><div class="steps"><div class="step"><div class="num">1</div><h3>สแกน QR Code</h3><p>ผู้ชมสแกน QR Code ที่แสดงในวิดีโอเพื่อเข้าสู่เว็บไซต์</p></div><div class="step"><div class="num">2</div><h3>เลือกหัวข้อ</h3><p>เลือกอ่านประวัติ สถาปัตยกรรม จิตรกรรม หรือโบราณวัตถุ</p></div><div class="step"><div class="num">3</div><h3>เรียนรู้เพิ่มเติม</h3><p>กลับมาดูข้อมูลและภาพประกอบได้ด้วยตัวเอง แม้วิดีโอจะจบแล้ว</p></div></div></div></div></section>
 
-<section id="qr" class="qr-section">
- <div class="container qrgrid">
-  <div>
-   <div class="eyebrow" style="color:#facc15">SCAN & EXPLORE</div>
-   <h2>เข้าชม Digital Guide</h2>
-   <p>เมื่อเผยแพร่เว็บไซต์แล้ว ให้นำ URL ของเว็บไซต์ไปสร้าง QR Code และใส่ในวิดีโอ เพื่อให้ผู้ชมเข้ามาศึกษาข้อมูลเพิ่มเติมได้</p>
-   <p class="small">ตอนนี้ช่อง QR ในหน้านี้เป็นพื้นที่สำหรับใส่ QR ของเว็บจริงหลัง Publish</p>
-  </div>
-  <div class="qr-placeholder">📱<br>พื้นที่สำหรับ QR CODE<br><small>สร้าง QR หลังได้ URL จริง</small></div>
- </div>
-</section>
+<section id="sources" style="background:#fff"><div class="container"><div class="section-head"><div class="eyebrow">Sources</div><h2>แหล่งข้อมูลและเครดิต</h2><p class="lead">รวบรวมแหล่งข้อมูลที่ใช้ประกอบเนื้อหาใน Digital Guide และเครดิตภาพที่ผู้จัดทำเลือกนำมาใช้</p></div><div class="card source"><p><strong>มหาวิทยาลัยสงขลานครินทร์ — Southern Information</strong><br>ข้อมูลประวัติ สถาปัตยกรรม โบราณสถาน โบราณวัตถุ และจิตรกรรมของวัดมัชฌิมาวาส</p><p><strong>กรมศิลปากร</strong><br>ข้อมูลประวัติวัดและข้อมูลด้านการอนุรักษ์จิตรกรรมฝาผนัง</p><p><strong>Facebook ชุมชนชาวจีนเมืองสงขลา</strong><br>แหล่งอ้างอิงสำหรับภาพเก่าของวัดตามที่ผู้จัดทำรวบรวม</p><p><strong>Kapook Travel</strong><br>แหล่งอ้างอิงสำหรับภาพ/ข้อมูลเมืองสงขลาในอดีตตามที่ผู้จัดทำรวบรวม</p><p class="small">เครดิตภาพที่ผู้จัดทำนำมาใช้ควรตรวจสอบเงื่อนไขการเผยแพร่และระบุแหล่งที่มาตามต้นฉบับก่อนเผยแพร่สาธารณะ</p><p><a href="https://clib.psu.ac.th/southerninfo/content/1/2659e681" target="_blank" rel="noopener">อ่านข้อมูลจาก PSU Southern Information</a></p><p><a href="https://travel.kapook.com/view72007.html" target="_blank" rel="noopener">แหล่งข้อมูล Kapook Travel</a></p><p><a href="https://www.finearts.go.th/dvaravati/view/15355-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B1%E0%B8%8A%E0%B8%8C%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3-%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%87%E0%B8%82%E0%B8%A5%E0%B8%B2" target="_blank" rel="noopener">ข้อมูลจากกรมศิลปากร</a></p></div></div></section>
+
+<section id="qr" class="qr-section"><div class="container qrgrid"><div><div class="eyebrow" style="color:#facc15">SCAN & EXPLORE</div><h2>เข้าชม Digital Guide</h2><p>หลังจากเว็บไซต์เผยแพร่บน GitHub Pages แล้ว ให้นำ URL จริงมาสร้าง QR Code และใส่ในวิดีโอ</p><p class="small">ช่องนี้จะเปลี่ยนเป็น QR Code จริงเมื่อได้ URL ของเว็บไซต์</p></div><div class="qr-placeholder">📱<br><strong>พื้นที่สำหรับ QR CODE</strong><br><small>สร้าง QR หลังได้ URL จริง</small></div></div></section>
 </main>
+<footer><div class="footerin"><strong>วัดมัชฌิมาวาสวรวิหาร • Digital Guide</strong><p class="small">จัดทำเพื่อประกอบโครงงานการผลิตวิดีโอส่งเสริมศิลปวัฒนธรรมท้องถิ่นด้วยเทคโนโลยี</p><p class="small">เนื้อหาและภาพใช้เพื่อการศึกษา โดยควรตรวจสอบเครดิตและเงื่อนไขการนำภาพไปใช้ตามแหล่งต้นฉบับก่อนเผยแพร่สาธารณะ</p></div></footer>
 
-<footer>
- <div class="footerin">
-  <strong>วัดมัชฌิมาวาสวรวิหาร • Digital Guide</strong>
-  <p class="small">จัดทำเพื่อประกอบโครงงานการผลิตวิดีโอส่งเสริมศิลปวัฒนธรรมท้องถิ่นด้วยเทคโนโลยี</p>
-  <p class="small">หมายเหตุ: เนื้อหาและภาพควรตรวจสอบเครดิต/เงื่อนไขการนำไปใช้ตามแหล่งต้นฉบับก่อนเผยแพร่สาธารณะ</p>
- </div>
-</footer>
-</body>
-</html>
+<!-- IMAGE FILE MAPPING
+Put these 23 images in an "images" folder beside index.html.
+01-home-temple.jpg
+02-home-ubosot.jpg
+03-history-current.jpg
+04-history-old.jpg
+05-history-songkhla-old.jpg
+06-arch-ubosot.jpg
+07-arch-pediment.jpg
+08-arch-pediment-detail.jpg
+09-arch-door.jpg
+10-arch-window.jpg
+11-arch-decoration.jpg
+12-mural-overview-01.jpg
+13-mural-overview-02.jpg
+14-mural-buddha-history.jpg
+15-mural-ten-jataka.jpg
+16-mural-deva.jpg
+17-mural-people.jpg
+18-mural-lifestyle.jpg
+19-mural-songkhla.jpg
+20-museum-exterior.jpg
+21-museum-inside.jpg
+22-artifact-01.jpg
+23-artifact-02.jpg
+-->
+
+</body></html>
